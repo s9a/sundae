@@ -1,0 +1,26 @@
+html {
+  font-size: max(20pt, 5vw);
+  font-family: monospace;
+}
+
+body {
+  margin: 0;
+  padding-block: 0;
+  padding-inline: 1em;
+}
+
+:focus {
+  outline-width: thick;
+}
+
+li {
+  list-style: circle;
+}
+
+li:last-child {
+  list-style: disc;
+}
+
+aside {
+  margin-block: 1em;
+}
